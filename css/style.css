@@ -1,0 +1,61 @@
+body {
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bg {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.first-home {
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+}
+#home-pic-container{
+  position: relative;
+}
+
+#iphone-svg {
+  height: 675px;
+}
+
+div.screen-content {
+  position: absolute;
+  width: 286px;
+  height: 505px;
+  top: 10%;
+  left: 9%;
+}
+
+.jsm-bot-info, .jsm-status-navbar, .jsm-messenger-flash, .jsm-chat-progress-indicator {
+  display:none;
+}
+
+/* Adjusting the image height on messenger bot on homepage*/
+.jsm-title-hidden {
+  display: none !important;
+}
+
+.jsm-image {
+  padding-top:80% !important;
+  border-bottom-left-radius: 1.55em !important;
+  border-bottom-right-radius: 1.55em !important;
+}
+
+/* Hiding type a message box on homepage */
+.jsm-input-message {
+  display: none;
+}
+
+/*Adjusting the fontsize of the chat content*/
+.jsm-chat-content {
+  font-size: 1.2em !important;
+}
+
+/* fixing the spacing in the quick reply buttons*/
+.jsm-quick-replies-container {
+  display:flex !important;
+  justify-content:space-around;
+}
