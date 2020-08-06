@@ -10,7 +10,7 @@ $(function() {
 	.fbMessenger('typingIndicator', { delay: 1000 })
 	.fbMessenger('showGenericTemplate', [
 	{
-	imageUrl: src="https://67.media.tumblr.com/tumblr_m8b6tjhARM1qjwa0g.gif",
+	imageUrl: src="https://raw.githubusercontent.com/213bos/jtesting2/master/img/hello_pikachu.gif",
 	title: '',
 	subtitle: '',
 	buttons: []
@@ -32,7 +32,7 @@ $(function() {
 	.fbMessenger('message', 'bot', 'I\'m a <b>Design Science Master\'s student</b> at the University of Michigan' , {delay: 1500 })
 	.fbMessenger('showGenericTemplate', [
 	{
-	imageUrl: src="https://github.com/213bos/jstesting/blob/master/img/michigan.gif?raw=true",
+	imageUrl: src="https://raw.githubusercontent.com/213bos/jtesting2/master/img/michigan_sign.gif",
 	title: '',
 	subtitle: '',
 	buttons: []
