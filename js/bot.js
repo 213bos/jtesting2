@@ -3,14 +3,14 @@ $(function() {
 	$('.screen-content')
 	.fbMessenger({
 			botName: '',
-			botLogoUrl: src="https://raw.githubusercontent.com/213bos/jstesting/master/img/pp.png",
+			botLogoUrl: src="https://raw.githubusercontent.com/abosko50/jstesting/master/img/pp.png",
 			loop:false
 		})
 	.fbMessenger('start', { delay: 0 })
 	.fbMessenger('typingIndicator', { delay: 1000 })
 	.fbMessenger('showGenericTemplate', [
 	{
-	imageUrl: src="https://raw.githubusercontent.com/213bos/jtesting2/master/img/hello_pikachu.gif",
+	imageUrl: src="https://raw.githubusercontent.com/abosko50/jtesting2/master/img/hello_pikachu.gif",
 	title: '',
 	subtitle: '',
 	buttons: []
@@ -21,7 +21,7 @@ $(function() {
 
 	// .fbMessenger('showGenericTemplate', [
 	// {
-	// imageUrl: src="https://github.com/213bos/jstesting/blob/master/img/hellopika.gif?raw=true",
+	// imageUrl: src="https://github.com/abosko50/jstesting/blob/master/img/hellopika.gif?raw=true",
 	// title: '',
 	// subtitle: '',
 	// buttons: []
@@ -32,7 +32,7 @@ $(function() {
 	.fbMessenger('message', 'bot', 'I\'m a <b>Design Science Master\'s student</b> at the University of Michigan' , {delay: 1500 })
 	.fbMessenger('showGenericTemplate', [
 	{
-	imageUrl: src="https://raw.githubusercontent.com/213bos/jtesting2/master/img/michigan_sign.gif",
+	imageUrl: src="https://raw.githubusercontent.com/abosko50/jtesting2/master/img/michigan_sign.gif",
 	title: '',
 	subtitle: '',
 	buttons: []
