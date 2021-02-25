@@ -39,7 +39,7 @@ $(function() {
 	}
 	], { delay: 2000 })
 	.fbMessenger('typingIndicator', { delay: 2000 })
-	.fbMessenger('message', 'bot', 'Feel free to explore my LinkedIn and resume <a href="https://www.linkedin.com/in/andrew-boskovich/" target="_blank">LinkedIn</a> <a href="https://drive.google.com/file/d/1mFyXRIrzlhF7AOxUpMV2o-pDTKIr3c7P/view" target="_blank">Resume</a>', {delay: 1500 })
+	.fbMessenger('message', 'bot', 'Feel free to explore my LinkedIn and resume <a href="https://www.linkedin.com/in/andrew-boskovich/" target="_blank">LinkedIn</a> <a href="https://drive.google.com/file/d/1OzZ6Q89sA7nUbfWnJRQR9bHPQpz7WDdP/view" target="_blank">Resume</a>', {delay: 1500 })
 	.fbMessenger('typingIndicator', { delay: 500 })
 	.fbMessenger('message', 'bot', 'Scroll down for my recent work!', {delay: 1500 })
 	.fbMessenger('message', 'bot', 'Don\'t be shy, scroll down!', { timestamp: now, delay: 4000 })
